@@ -1,0 +1,31 @@
+[class*='__container'] {
+    max-width: 73.125rem;
+    margin: 0 auto;
+    padding: 0 0.938rem;
+}
+
+[class*='__title'] {
+    color: #363434;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: clamp(1.53rem, 1.353rem + 0.88vw, 2rem);
+    line-height: clamp(1.5rem, 1.218rem + 1.41vw, 2.25rem);
+    margin-bottom: clamp(3.71rem, 3.014rem + 3.48vw, 5.56rem);
+}
+
+[class*='-btn'] {
+    width: clamp(11.25rem, 9.132rem + 10.59vw, 16.875rem);
+    height: clamp(2.92rem, 2.372rem + 2.74vw, 4.375rem);
+    flex-shrink: 0;
+    border-radius: 0.6125rem;
+    background: linear-gradient(180deg, #a7caff 0%, #0057FF 50%);
+    padding: clamp(0.87rem, 0.704rem + 0.83vw, 1.31rem) clamp(2.9rem, 2.354rem + 2.73vw, 4.35rem);
+    color: #6A5300;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(0.63rem, 0.514rem + 0.58vw, 0.938rem);
+    font-weight: 600;
+    line-height: clamp(1.53rem, 1.353rem + 0.88vw, 2rem);
+    letter-spacing: 0.06563rem;
+    text-transform: uppercase;
+}

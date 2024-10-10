@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,regular,500,700,900");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600,700");
+
+@import url("https://fonts.googleapis.com/css?family=Philosopher:regular,700");
+
+/*font-family: "Philosopher", sans-serif;*/
+/*font-family: "Montserrat", sans-serif;*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #4b4b4b;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: clamp(0.875rem, 0.71rem + 0.82vw, 1.313rem);
+    letter-spacing: normal;
+}
+
+.icon {
+    padding-bottom: 0.88rem;
+}
+
+.icon-parcing,
+.icon-stopwatch,
+.icon-rest {
+    mix-blend-mode: multiply;
+}
